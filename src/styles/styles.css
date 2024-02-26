@@ -1,4 +1,10 @@
 .main   {
+    background-image:url('https://i.pinimg.com/originals/76/46/cb/7646cb03ac8c610345cb3e81974938fb.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-blend-mode: darken;
+    background-size:cover;
+    image-rendering:optimizeQuality;
     display:flex;
     background-color: #f5f9ff;
     height:100vh;
@@ -18,10 +24,12 @@
 }
 .input__area    {
     width:500px;
+    height:500px;
     display:flex;
     align-self: center; 
     margin-top:16%;
     background-color:rgba(250, 250, 250, 0.3);
+    
     z-index: 3;
     border:none;
     border-radius:8px;
@@ -61,7 +69,8 @@
     border-radius:20px;
     height:60px;
     font-weight:400;
-    background-color:#0A3671;
+    background-color:rgba(110, 110, 110, 0.5);
+    border:gray 1px solid;
     transform:translateY(0px);
     transition: transform 0.1s ease-in-out;
 }
@@ -70,13 +79,13 @@
 }
 .btn__encrypt:hover {
     font-weight: 500;
-    background-color:#0a2240;
+    background-color:rgba(110, 110, 110, 0.6);
 }
 .bnt__decrypt   {
     display:flex;
     flex: 1 0 0;
     justify-content: center;
-    color: #2d5c98 ;
+    color: #053879 ;
     border:solid 1px #0A3671;
     font-size:1.3em;
     font-weight: 500;
@@ -86,13 +95,15 @@
     background-color: #dfe1e3;
     transform:translateY(0px);
     transition: transform 0.3s ease-in-out;
+    background-color:rgba(110, 110, 110, 0.8);
 }
 .bnt__decrypt:active    {
     transform: translateY(3px);
  }
 .bnt__decrypt:hover {
     font-weight:500;
-    background-color: #959ca3;
+    background-color:rgba(110, 110, 110, 0.6);
+    
 }
 .project__title {
     height:fit-content;
@@ -105,17 +116,24 @@
 }
 .image__container   {
     width:100%;
+    max-width:500px;
+    
+}
+.image__guyWLupe    {
+    width:300px;
+
 }
 .output__area   {
     display:flex;
     justify-content: center;
+    color:#f4f4f4;
     align-items: center; 
     width:450px;
     border-radius:20px;
     flex-direction:column;
     margin:20px;
     box-shadow: 1px 5px 8px 3px rgb(173, 172, 172);
-    background-color:#fff;
+    background-color:rgba(110, 110, 110, 0.3);
     
 }
 
@@ -127,6 +145,8 @@
 }
 .out__paragraph {
     font-size:1.1rem;
+    max-width:300px;
+    word-break: break-all;
     text-align:center;
 
 }
@@ -150,7 +170,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    color: #2d5c98 ;
+    color: #ffffff ;
     border:solid 1px #0A3671;
     font-size:1.5em;
     margin-top:30px;
@@ -158,7 +178,7 @@
     width:230px;
     height:60px;
     border-radius:20px;
-    background-color: #dfe1e3;
+    background-color:rgba(110, 110, 110, 0.3);
     transform:translateY(0px);
     transition: transform 0.3s ease-in-out;
 }
@@ -167,7 +187,7 @@
  }
  .btn__copy:hover {
      font-weight: 500;
-     background-color:#f1f1f1;
+     background-color:#ababab;
  }
 
  #none__article {

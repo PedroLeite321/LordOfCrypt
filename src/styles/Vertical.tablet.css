@@ -6,9 +6,9 @@
         display:flex;
         flex-direction:column;
         justify-content:space-between;
-        height:100vh;
+        height:160vh;
         width:100%;
-        align-items:center;
+        
     }
     .input__text    {
         display:flex; 
@@ -30,7 +30,11 @@
         width:160px;
     }
     .output__area   {
-        padding:20px;
+        background-color:rgba(110, 110, 110, 0.2);
         width:100%;
+       
+    }
+    .out__paragraph {
+        color:white;
     }
 }

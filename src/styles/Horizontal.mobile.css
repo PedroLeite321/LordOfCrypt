@@ -5,7 +5,8 @@
         display:flex;
         flex-direction:column;
         justify-content:space-between;
-        height:100vh;
+        height:260vh;
+        min-height:50px;
         width:100%;
         align-items:center;
     }
@@ -18,6 +19,7 @@
     .input__area    {
         display:flex;
         width:220px;
+        max-height:150px;
         height:100%;
         justify-content: center;
         align-items: center;
